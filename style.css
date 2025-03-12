@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --background: #ededed;;
+  --white: #fff;
+  --blue: #00008b;
+  --red: #8b0000;
+  --green: #006400;
+}
+
+.container {
+  background-color: #ededed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__cronometro {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border: 10px solid rgba(255, 255, 0, 0.46);
+  border-radius: 5px;
+}
+
+.container__cronometro h1 {
+  font-size: 3rem;
+}
+
+.container__relogio {
+  font-size: 4.8rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 1rem;
+  width: 150px;
+  cursor: pointer;
+  border: none;
+  color: var(--white);
+  font-size: 1rem;
+  opacity: .8;
+  transition: .3s all;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.btn-iniciar {
+  background-color: var(--green);
+}
+
+.btn-pausar {
+  background-color: var(--red);
+}
+
+.btn-zerar {
+  background-color: #00008b;
+}
+
+.red {
+  color: var(--red);
+}
+
+
